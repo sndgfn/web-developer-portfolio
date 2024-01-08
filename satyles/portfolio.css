@@ -154,8 +154,37 @@ main section {
 }
 
 /* resume section style */
+.resuem-column {
+    text-align: center;
+}
 .resume-column-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+
+    font-size: 25px;
+    color: #474747;
+    font-weight: 700;
+}
+.resume-item-institution {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-title ,.resume-item-description 
+{
+    color: v#757575;
+}
+.resume-container hr {
+    margin: 30px;
+}
+.doenlode-cv {
+    text-align: center;
 }
